@@ -1,0 +1,14 @@
+{
+  "name": "bingtube",
+  "version": "1.0.0",
+  "description": "A Platform Like YouTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Yash Maurya",
+  "license": "ISC"
+}
