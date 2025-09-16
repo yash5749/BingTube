@@ -1,4 +1,4 @@
-class APIError extends Error {
+class ApiError extends Error {
     constructor(
         statuscode,
         message = "Internal Server Error",
@@ -18,4 +18,4 @@ class APIError extends Error {
         }
     }
 }
-export {APIError}
+export {ApiError}
