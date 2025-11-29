@@ -8,7 +8,7 @@ const videoSchema = new Schema({
     },
     thumbnail :{
         type: String,
-        required: true
+        
     },
     owner:{
         type: Schema.Types.ObjectId,
@@ -19,7 +19,7 @@ const videoSchema = new Schema({
         type: String,
         required: true
     },
-    descrpition:{
+    description:{
         type: String,
         required: true,
         maxLength: 2000,
@@ -32,7 +32,7 @@ const videoSchema = new Schema({
         type: Number,
         default: 0,
     },
-    isPunlished:{
+    isPublished:{
         type: Boolean,
         default: true
     }
